@@ -1,0 +1,5 @@
+(forall x. P(x) -> Q(x)) -> ((forall x. Q(x) -> R(x)) -> (P(a) -> R(a)))
+((forall x. P(x)) && (forall x. P(x) -> Q(x))) -> Q(a)
+(forall x. P(x) -> (Q(x) || R(x))) -> (P(a) -> (Q(a) || R(a)))
+((exists x. P(x)) && (forall x. P(x) -> Q(x))) -> (exists x. Q(x))
+(forall x. P(x) -> P(f(x))) -> (P(a) -> P(f(a)))
