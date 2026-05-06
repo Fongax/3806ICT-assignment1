@@ -739,7 +739,7 @@ SAMPLE_BENCHMARKS = {
 def make_sample_benchmarks(folder: Path) -> None:
     folder.mkdir(parents=True, exist_ok=True)
     for filename, lines in SAMPLE_BENCHMARKS.items():
-        (folder / filename).write_text("".join(lines) + "", encoding="utf-8")
+        (folder / filename).write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Created sample benchmark files in: {folder}")
 
 
