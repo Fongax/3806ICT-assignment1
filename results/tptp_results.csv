@@ -1,0 +1,13 @@
+dataset,prover,result_status,nodes_expanded,elapsed_seconds,tptp_status,tptp_mode,tptp_formula_count,error
+KRS018+1.p,baseline,recursion_error,988,,Satisfiable,unsat_check,4,maximum recursion depth exceeded
+KRS018+1.p,improved,failed,30,0.000907,Satisfiable,unsat_check,4,
+KRS063+1.p,baseline,recursion_error,982,,Unsatisfiable,unsat_check,27,maximum recursion depth exceeded
+KRS063+1.p,improved,failed,132,0.15667,Unsatisfiable,unsat_check,27,
+MGT019+2.p,baseline,recursion_error,1714,,CounterSatisfiable,entailment,5,maximum recursion depth exceeded
+MGT019+2.p,improved,recursion_error,853,,CounterSatisfiable,entailment,5,maximum recursion depth exceeded
+PUZ001+1.p,baseline,recursion_error,987,,Theorem,entailment,14,maximum recursion depth exceeded
+PUZ001+1.p,improved,failed,24,0.001573,Theorem,entailment,14,
+SYN000+1.p,baseline,recursion_error,1458,,Theorem,entailment,9,maximum recursion depth exceeded
+SYN000+1.p,improved,recursion_error,904,,Theorem,entailment,9,maximum recursion depth exceeded
+SYN075+1.p,baseline,recursion_error,983,,Theorem,entailment,2,maximum recursion depth exceeded
+SYN075+1.p,improved,failed,51,0.002916,Theorem,entailment,2,
